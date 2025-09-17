@@ -1,0 +1,9 @@
+เอาข้อสอบมาลองเขียนอีกครั้ง
+
+-- 1.Write a function that takes an array of user objects with fields: { name, age, active } 
+and returns a new array of users who are active and at least 18 years old. If the input is not a valid array, 
+return an empty array.
+
+สิ่งที่ได้ฝึก เอาโจทย์ข้อสอบมาแก้มือทำใหม่จากที่เช็คอะไรหลายอย่างในห้องสอบก็ไม่รู้ก็แค่เช็คว่า argument ที่รับเข้ามาเป็น array มั้ยด้วย isArray ได้ความรู้เรื่อง isArray ที่อาจจะมองข้ามไปแล้วก็เช็คว่า แต่ละตัวใน array เป็น object และไม่ null
+แล้วที่เหลือก็ filter ตามโจทย์แต่ในห้องสอบคิดไม่ได้ได้ไงง TT ได้ฝึกเขียน Test case แบบเพียวๆ แล้วก็ใช้ nested function เพื่อเอามาวนเรียกใช้ซ้ำเวลาจะ test แต่ละเคส ฝึกการเช็คว่าค่าของ object ทั้งสองเท่ากันมั้ยมีค่าเท่ากันหรือไม่ ได้คุ้นชิน
+กับ array method (isArray), object method (keys)
