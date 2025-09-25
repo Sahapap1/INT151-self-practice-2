@@ -1,1 +1,4 @@
-เรียนรู้การใช้ dom รู้จักกับ node ต่างๆใน dom 
+DOM เรียนรู้การใช้ dom รู้จักกับ node ต่างๆใน dom 
+
+Beginner_List นำ dom มาใช้ในการเอาข้อมูลจาก array object ไปแสดงบนหน้าเว็บ โดยสร้าง Element li แล้วใส่ข้อมูลต่างๆจาก array object ที่สร้างไว้แบบ literal 
+โดยวนลูปแสดงเมนูอาหารให้ครบ และใช้ document.getElementById เพื่อนำเอา element ที่สร้างไว้แล้วใน index.html มา appen li เพิ่มเข้าไป
