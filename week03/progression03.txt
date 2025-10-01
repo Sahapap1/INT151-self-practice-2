@@ -1,0 +1,12 @@
+ใช้ import module จากอีกไฟล์ destructuring module ออกมาใน brownser ไม่สามารถรันได้ต้องเติม type="module" 
+การ ใช้ตัวแปรถ้าเราอยากอ้างแค่ใน scope ของ function เราต้องกำหนด const ไปข้างหน้าเช่น
+const quotes = []
+
+function() {
+    quotes = getAllQuotes()
+    การจะใช้ for (quote of quotes)
+    ต้องเติม (const quote of quotes) เพื่อบอกว่าให้ เรียกใช้ quote ใน function ไม่งั้นโปรแกรมจะเรียกใช้จาก global 
+    
+}
+
+ในการ render ข้อมูลใหม่บนเว็บเราควรจะเคลียข้อมูลเก่าออกก่อนเพื่อให้เป็นการ render ซ้อนทับกัน
